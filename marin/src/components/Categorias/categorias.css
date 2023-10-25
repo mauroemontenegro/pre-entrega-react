@@ -1,0 +1,18 @@
+.categorias{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.btn-cat{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+}
+.categorias h3{
+    height: 40px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(0, 0, 0); */
+    
+    margin-top: 5px;
+}

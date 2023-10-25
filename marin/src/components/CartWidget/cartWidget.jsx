@@ -7,13 +7,10 @@ const Car = () => {
     return (
         <>
             <div className={styles.button}>
-                <Badge count={5}>
+                <Badge count={7}>
 
                     <Avatar shape="square" size="large" icon={<ShoppingCartOutlined />} />
                 </Badge>
-                {/* <div id="verCarrito" class="carrito">
-                <button>🛒</button>
-            </div> */}
             </div>
         </>
     )
