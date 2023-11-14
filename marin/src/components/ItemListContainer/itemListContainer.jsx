@@ -1,14 +1,11 @@
 import React from "react"
 import styles from './list.module.css'
-import Item from "../Item/Item"
-// import Categories from "../Categorias/Categories"
-import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer"
-import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
-import { useEffect } from 'react';
 import Categories from "../Categorias/Categories";
+import ItemList from "../ItemList/ItemList";
+
 
 const ItemListContainer = ({ greting }) => {
+    
 
     return (
         <>
@@ -18,7 +15,7 @@ const ItemListContainer = ({ greting }) => {
             <Categories />
             </div>
             <div className="contenedor">
-                <Item />
+                <ItemList/>
             </div>
         </>
     )

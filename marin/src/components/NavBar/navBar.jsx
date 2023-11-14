@@ -13,7 +13,7 @@ const NavBar = () => {
                     <NavLink to={'/'}><h3>MARIN</h3></NavLink>
                     <div className={styles.navegacion}>
                         <ul>
-                            <NavLink to={'/'}><li><a href="">INICO</a></li></NavLink>
+                            <li><a href="./">INICO</a></li>
                             <li><a href="">PRODUCTOS</a></li>
                             <li><a href="">CONTACTO</a></li>
                         </ul>
